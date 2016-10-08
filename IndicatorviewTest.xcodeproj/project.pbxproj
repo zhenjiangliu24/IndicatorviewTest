@@ -12,6 +12,12 @@
 		CA037DC11DA818D500109A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA037DBF1DA818D500109A9B /* Main.storyboard */; };
 		CA037DC31DA818D500109A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA037DC21DA818D500109A9B /* Assets.xcassets */; };
 		CA037DC61DA818D500109A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA037DC41DA818D500109A9B /* LaunchScreen.storyboard */; };
+		CA037DD91DA8194500109A9B /* UIViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA037DD81DA8194500109A9B /* UIViewcontroller.swift */; };
+		CA037DE01DA82D9400109A9B /* AppIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA037DDB1DA82D9400109A9B /* AppIndicatorAnimationDelegate.swift */; };
+		CA037DE11DA82D9400109A9B /* AppIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA037DDC1DA82D9400109A9B /* AppIndicatorPresenter.swift */; };
+		CA037DE21DA82D9400109A9B /* AppIndicatorRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA037DDD1DA82D9400109A9B /* AppIndicatorRotate.swift */; };
+		CA037DE31DA82D9400109A9B /* AppIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA037DDE1DA82D9400109A9B /* AppIndicatorView.swift */; };
+		CA037DE41DA82D9400109A9B /* AppIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA037DDF1DA82D9400109A9B /* AppIndicatorViewable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		CA037DC21DA818D500109A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA037DC51DA818D500109A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA037DC71DA818D500109A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA037DD81DA8194500109A9B /* UIViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewcontroller.swift; sourceTree = "<group>"; };
+		CA037DDB1DA82D9400109A9B /* AppIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		CA037DDC1DA82D9400109A9B /* AppIndicatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIndicatorPresenter.swift; sourceTree = "<group>"; };
+		CA037DDD1DA82D9400109A9B /* AppIndicatorRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIndicatorRotate.swift; sourceTree = "<group>"; };
+		CA037DDE1DA82D9400109A9B /* AppIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIndicatorView.swift; sourceTree = "<group>"; };
+		CA037DDF1DA82D9400109A9B /* AppIndicatorViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIndicatorViewable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		CA037DBA1DA818D500109A9B /* IndicatorviewTest */ = {
 			isa = PBXGroup;
 			children = (
+				CA037DDA1DA82D9400109A9B /* AppIndicatorView */,
 				CA037DBB1DA818D500109A9B /* AppDelegate.swift */,
 				CA037DBD1DA818D500109A9B /* ViewController.swift */,
 				CA037DBF1DA818D500109A9B /* Main.storyboard */,
 				CA037DC21DA818D500109A9B /* Assets.xcassets */,
 				CA037DC41DA818D500109A9B /* LaunchScreen.storyboard */,
 				CA037DC71DA818D500109A9B /* Info.plist */,
+				CA037DD81DA8194500109A9B /* UIViewcontroller.swift */,
 			);
 			path = IndicatorviewTest;
+			sourceTree = "<group>";
+		};
+		CA037DDA1DA82D9400109A9B /* AppIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				CA037DDB1DA82D9400109A9B /* AppIndicatorAnimationDelegate.swift */,
+				CA037DDC1DA82D9400109A9B /* AppIndicatorPresenter.swift */,
+				CA037DDD1DA82D9400109A9B /* AppIndicatorRotate.swift */,
+				CA037DDE1DA82D9400109A9B /* AppIndicatorView.swift */,
+				CA037DDF1DA82D9400109A9B /* AppIndicatorViewable.swift */,
+			);
+			path = AppIndicatorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +122,7 @@
 				TargetAttributes = {
 					CA037DB71DA818D500109A9B = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VUAV2FEX5A;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA037DE21DA82D9400109A9B /* AppIndicatorRotate.swift in Sources */,
 				CA037DBE1DA818D500109A9B /* ViewController.swift in Sources */,
+				CA037DE41DA82D9400109A9B /* AppIndicatorViewable.swift in Sources */,
+				CA037DD91DA8194500109A9B /* UIViewcontroller.swift in Sources */,
 				CA037DBC1DA818D500109A9B /* AppDelegate.swift in Sources */,
+				CA037DE31DA82D9400109A9B /* AppIndicatorView.swift in Sources */,
+				CA037DE01DA82D9400109A9B /* AppIndicatorAnimationDelegate.swift in Sources */,
+				CA037DE11DA82D9400109A9B /* AppIndicatorPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VUAV2FEX5A;
 				INFOPLIST_FILE = IndicatorviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.IndicatorviewTest;
@@ -272,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VUAV2FEX5A;
 				INFOPLIST_FILE = IndicatorviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.IndicatorviewTest;

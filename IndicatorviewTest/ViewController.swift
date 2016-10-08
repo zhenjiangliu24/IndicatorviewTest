@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func show(_ sender: AnyObject) {
+        startAnimating(message: "Loading...")
+    }
 }
 
